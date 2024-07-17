@@ -19,8 +19,8 @@ jobs:
         shell: bash
 
   goodbye:
-  runs-on: ubuntu-latest
-  steps:
-    - name: goodbye
-      run: echo "GoodBye World"
-      shell: bash
+    runs-on: ubuntu-latest
+    steps:
+      - name: goodbye
+        run: echo "GoodBye World"
+        shell: bash
